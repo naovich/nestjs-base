@@ -1,10 +1,10 @@
-# 🤖 VibeCoding NestJS Template
+# 🔐 NestJS Base - Authentication Module
 
-**Template NestJS minimal avec guardrails IA**
+**NestJS project with complete authentication system and VibeCoding guardrails**
 
-Comme `nest new`, mais **enrichi** pour que les IA ne fassent pas n'importe quoi.
+Based on the VibeCoding NestJS template with all quality guardrails pre-configured.
 
-> 🎯 **Objectif:** Template minimal avec toutes les **configurations strictes** et **documentation IA** déjà en place. Vous construisez votre projet par-dessus, le template garantit la qualité.
+> 🎯 **Objectif:** Projet NestJS complet avec authentification (JWT, refresh tokens, guards) et toutes les **configurations strictes** déjà en place.
 
 ---
 

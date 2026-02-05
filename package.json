@@ -1,8 +1,8 @@
 {
-  "name": "vibecoding-nestjs",
+  "name": "nestjs-base",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "NestJS base project with authentication module and VibeCoding guardrails",
+  "author": "Nadhoir ATTOUMANI",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
