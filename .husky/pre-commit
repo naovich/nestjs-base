@@ -1,0 +1,19 @@
+echo "🔍 Running pre-commit checks..."
+
+# 1. Lint and format (manually, avoiding lint-staged bug)
+echo "🎨 Running ESLint..."
+npm run lint:fix
+
+echo "💅 Running Prettier..."
+npm run format
+
+# 2. Check TypeScript types (fast, no emit)
+echo "📘 Checking TypeScript types..."
+npm run type-check
+
+# 3. Generate documentation (LAST - after all formatting/linting)
+echo "📚 Generating documentation..."
+npm run docs
+git add FILE_TREE.md CODEBASE.md
+
+echo "✅ Pre-commit checks passed!"

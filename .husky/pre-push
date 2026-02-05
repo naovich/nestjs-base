@@ -1,0 +1,16 @@
+echo "🚀 Running pre-push checks..."
+
+# 1. Full TypeScript build
+echo "🏗️  Building TypeScript..."
+npm run build
+
+# 2. Full test suite
+echo "🧪 Running all tests..."
+npm run test:ci
+
+# 3. Check test coverage
+echo "📊 Checking test coverage..."
+npm run test:cov
+node scripts/enforce-coverage.js
+
+echo "✅ Pre-push checks passed! Ready to push."
