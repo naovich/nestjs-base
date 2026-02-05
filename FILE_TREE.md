@@ -1,4 +1,4 @@
-# File Tree - vibecoding-nestjs
+# File Tree - nestjs-base
 
 > Auto-generated on 2026-02-05
 >
@@ -7,7 +7,7 @@
 ## Project Structure
 
 ```
-vibecoding-nestjs/
+nestjs-base/
 ├── .husky/
 │   ├── _/
 │   │   ├── .gitignore
