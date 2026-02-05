@@ -47,6 +47,7 @@ vibecoding-nestjs/
 ├── test/
 │   ├── app.e2e-spec.ts
 │   └── jest-e2e.json
+├── .gitignore
 ├── .lintstagedignore
 ├── .lintstagedrc.js
 ├── .prettierignore
