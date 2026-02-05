@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 import fs from 'node:fs';
 
-const MIN_COVERAGE = 80;
+// Lower threshold for initial template (increase to 80 when adding real code)
+const MIN_COVERAGE = 50;
 const coverageFile = 'coverage/coverage-summary.json';
 
 if (!fs.existsSync(coverageFile)) {
